@@ -5,7 +5,7 @@ import { Combobox, ComboboxAnchor, ComboboxEmpty, ComboboxGroup, ComboboxInput, 
 import { watch } from 'vue';
 import Label from "../ui/label/Label.vue";
 
-    const props = defineProps<{
+    defineProps<{
         options : any[];
         optionLabel : string;
         optionValue : string;

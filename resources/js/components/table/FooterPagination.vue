@@ -90,7 +90,6 @@ const processedLinks = computed(() => {
 
         <!-- Paginación -->
         <Pagination
-            v-slot="{ page }"
             :total="paginator.total"
             :items-per-page="paginator.per_page"
             :sibling-count="1"

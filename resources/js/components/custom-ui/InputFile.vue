@@ -4,7 +4,7 @@
     import { UploadIcon } from 'lucide-vue-next';
 
     const model = defineModel();
-    const props = defineProps({
+    defineProps({
         accept : {
             required : true,
             type  : String

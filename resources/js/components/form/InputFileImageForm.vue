@@ -1,11 +1,10 @@
 <script setup lang="ts">
- import { computed, watch } from 'vue';
 import InputFileImage from '@/components/custom-ui/InputFileImage.vue';
  import { Label } from '@/components/ui/label';
 import InputError from '@/components/InputError.vue';
 
  const model = defineModel<string>();
- const props = defineProps<{
+ defineProps<{
      label : string;
      error : string | undefined;
      description ?: string;
